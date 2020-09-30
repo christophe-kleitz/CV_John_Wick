@@ -46,6 +46,7 @@ html {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
+
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
 
@@ -57,7 +58,10 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff; }
+  background-color: #fff;
+  overflow-x: hidden; //horizontal
+overflow-y: scroll; //vertical
+}
 
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important; }
@@ -8701,7 +8705,7 @@ h1, h2, h3, h4, h5,
   color: #fff; }
   .ftco-about .text h2 span {
     font-weight: 900;
-    color: #f3c623; }
+    color: #00C9F5; }
 
 .ftco-about .team-wrap .team {
   width: 100%;
@@ -8769,9 +8773,9 @@ h1, h2, h3, h4, h5,
       .portfolio-wrap .img .icon span {
         color: #fff; }
       .portfolio-wrap .img .icon:hover {
-        border-color: #f3c623; }
+        border-color: #00C9F5; }
         .portfolio-wrap .img .icon:hover span {
-          color: #f3c623; }
+          color: #00C9F5; }
     .portfolio-wrap .img:hover .icon {
       opacity: 1; }
   .portfolio-wrap .text {
@@ -8819,7 +8823,7 @@ h1, h2, h3, h4, h5,
           width: 2px;
           height: 40px;
           content: '';
-          background: #f3c623; }
+          background: #00C9F5; }
       .portfolio-wrap .text .desc.text-md-right .absolute {
         padding-left: 0;
         padding-right: 20px; }
