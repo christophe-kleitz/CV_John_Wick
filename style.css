@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+header {
+    height: 100vh;
+    width: 20%;
+    background-image: url("background-menu.png");
+    background-repeat: no-repeat;
+}
+
+
+.menu {
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+.marge-before
+{
+    min-height:150px;
+}
+
+header ul li {
+    list-style: none;
+    margin-top: 20px;
+}
+
+
+header ul li a,
+header ul li a:hover
+{
+    text-decoration:none;
+    list-style:none;
+    text-transform: uppercase;
+    color:#dbcdcc;
+    padding: 2em;    
+}
+
+.image-bg {
+    width: 30%;
+}
+
+.text {
+    width:50%;
+}
