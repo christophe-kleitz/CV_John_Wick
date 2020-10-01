@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    padding:0;
+    background-color: black;
+    height: 100%;
+}
+
+/*Organisation de la page*/
+
+.container
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.fixe {
+    width:50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu {
+    width: 40%;
+}
+
+.image-bg {
+    width: 60%;
+    overflow: hidden;
+    position:relative;
+}
+
+.contenu {
+    width:50%;
+    background-color: #1c1c1a;
+    padding: 5%;
+}
+
+img
+{
+    position: absolute;
+    display:block;
+    height: 100%;
+}
+
+/*Organisation du menu*/
+
+
+.menu {
+    font-family: "Poppins", Arial, sans-serif;
+    background-image: url("background-menu.png");
+    background-repeat: no-repeat;
+}
+
+.marge-before
+{
+    min-height:150px;
+}
+
+header ul li {
+    list-style: none;
+    line-height: 2em;
+    padding-top: 20px;
+}
+
+
+header ul li a
+{
+    text-decoration:none;
+    list-style:none;
+    text-transform: uppercase;
+    color:rgba(255, 255, 255, 0.8);;
+    font-weight: bolder;
+}
+
+header ul li a:hover
+{
+    text-decoration:none;
+    list-style:none;
+    text-transform: uppercase;
+    color:#66d1c1;
+}
+
+
+
+/*Style générale*/
+
+h1 {
+    font-family: 'Abril Fatface', cursive;
+    color:white;
+    font-size: 3em;
+
+}
+
+h2 {
+    font-family: 'Abril Fatface', cursive;
+    color:#66d1c1;
+    font-size: 2em;
+    line-height: 1.2;
+    
+}
+
+p {
+    font-family: "Poppins", Arial, sans-serif;
+    color:#545454;
+    font-weight: bolder;
+}
+
+
+/*Intégrer ici votre css si pas de fichier perso*/
+
+
+/*Contact*/
+
+
+.picto-contact {
+    background-color:#66d1c1;
+    padding: 5%;
+    display:flex;
+    flex-direction: row;
+}
+
+.fas
+{
+    color: white;
+}
+
+.picto {
+    margin:auto;
+}
+
+.text-picto {
+    margin:auto;
+    margin-left:30px;
+}
+
+.picto-contact-col1,
+.picto-contact-col2 {
+    display: flex;
+    flex-direction: row;
+    padding-right: 15px;
+    padding-left:15px;
+    width:50%;
+}
+
+.formulaire-contact {
+    padding:5%;
+}
+
+input, textarea {
+    background: none ;
+    color: #04afec;
+    width:80%;
+    border: none;
+    border-bottom: #6666 1px solid;
+    outline : none;
+    font-size:1em;
+    padding:1rem;
+}
+
+input:focus,
+textarea:focus
+{
+    border-bottom: #66d1c1 solid 1px;
+}
+
+.submit
+{
+    background-color: #66d1c1;
+    color: white;
+    height: 3.5rem;
+    width:30%;
+    font-size:.9rem;
+    padding: auto;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    border-radius:none;
+    border:none;
+    margin:20px;
+}
