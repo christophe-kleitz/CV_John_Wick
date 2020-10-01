@@ -27,48 +27,22 @@
     <div class="contenu">
 
         <!--Insérer votre code juste ici pour respecter la mise en page-->
+        <div>    
+            <h1 class='hobbies'>My Hobbies</h1>
 
-        <div class="picto-contact">
-
-            <div class="picto-contact-col1"> 
-                <div class="picto">
-                    <i class="fas fa-map-marker-alt fa-2x"></i>
-                </div>
-                <div class="text-picto">
-                    <p>You can meet me at the WildCodeSchool, but I never stay long in one place </p>
-                </div>
-
-            </div>  
-
-            <div class="picto-contact-col2">
-                <div class="picto">
-                    <i class="fas fa-phone fa-2x"></i> 
-                </div>
-                <div class="text-picto"> 
-                    <p>You will never find my phone number on a website<br>The easiest way is to use the contact form </p>
-                </div>
-            </div>
+            <img class='giffy' src="./gifhobbies/wickdog.gif" >   
+            <h2>My Dog</h2>
+                <p>BLABLABLABLABLALBLALBlA</p>
+  
+            <img class='giffy' src="./gifhobbies/johnasr.gif" >    
+            <h2>My Guns</h2>
+                <p>BLABLABLABLABLALBLALBlA</p>
         
-        </div>
+            <img class='giffy' src="./gifhobbies/johnpolocrosse.gif" >
+            <h2>The Polo-Crosse</h2>
+                <p>BLABLABLABLABLALBLALBlA</p>
+        </div> 
 
-        <div class="formulaire-contact">
-
-            <h2> Send message </h2>
-
-            <form>
-
-                <input type="text" name="name" id="name" placeholder="First name"/>
-
-                <input type="text" name="name" id="name" placeholder="Last name"/>
-                    
-                <input type="email" name="mail" id="mail" placeholder="Email"/>
-                    
-                <textarea name="message" id="message" rows="20" cols="20" placeholder="Message"></textarea>
-
-                <button type="submit" id="submit" class="submit">Send message</button>
-            </form>
-        
-        </div>
 
         <!--Ne pas supprimer ce qui suit-->
 
