@@ -58,11 +58,11 @@
 
             <h2> Send me a message </h2>
 
-            <form>
+            <form  name="form" action="form.php"  method="post">
 
-                <input type="text" name="name" id="name" placeholder="Your first name"/>
+                <input type="text" name="first-name" id="first-name" placeholder="Your first name"/>
 
-                <input type="text" name="name" id="name" placeholder="Your last name"/>
+                <input type="text" name="last-name" id="last-name" placeholder="Your last name"/>
                     
                 <input type="email" name="mail" id="mail" placeholder="Your email"/>
                     
