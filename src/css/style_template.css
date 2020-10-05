@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding:0;
+    background-color: black;
+    height: 100%;
+}
+
+/*Organisation de la page*/
+
+.container
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+}
+
+.fixe {
+    width:50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu {
+    width: 35%;
+    height: 100vh;
+}
+
+.image-bg {
+    width: 65%;
+}
+
+.contenu {
+    width:50%;
+    background-color: #1c1c1a;
+    padding: 2%;
+}
+
+img
+{
+    width:auto;
+    display:block;
+    height: 100%;
+}
+
+
+/*Organisation du menu*/
+
+
+.menu {
+    font-family: "Poppins", Arial, sans-serif;
+    background-image: url("/medias/background-menu.png");
+    background-position: 100% 0%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.marge-before
+{
+    height:50px;
+}
+
+.logo
+{
+    margin: 20px;
+}
+
+header ul li {
+    list-style: none;
+    line-height: 2em;
+    padding-top: 20px;
+}
+
+
+header ul li a
+{
+    text-decoration:none;
+    list-style:none;
+    text-transform: uppercase;
+    color:rgba(255, 255, 255, 0.8);;
+    font-weight: bolder;
+}
+
+header ul li a:hover
+{
+    text-decoration:none;
+    list-style:none;
+    text-transform: uppercase;
+    color:#66d1c1;
+}
+
+
+/*Style générale*/
+
+h1 {
+    font-family: 'Abril Fatface', cursive;
+    color:white;
+    font-size: 3em;
+}
+
+h2 {
+    font-family: 'Abril Fatface', cursive;
+    color:#66d1c1;
+    font-size: 2em;
+    line-height: 1.2; 
+}
+
+p {
+    font-family: "Poppins", Arial, sans-serif;
+    color:#545454;
+    font-weight: bolder;
+}

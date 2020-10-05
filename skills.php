@@ -3,8 +3,13 @@
 <head>
   <meta charset="utf-8">
   <title>Template</title>
+<<<<<<< HEAD
   <link rel="stylesheet" href="css/style_template.css">
   <link rel="stylesheet" href="css/style_skills.css">
+=======
+  <link rel="stylesheet" href="../src/css/style_template.css">
+  <link rel="stylesheet" href="../src/css/style_skills.css">
+>>>>>>> ed987920735bec136458527831502561f6e57e49
 
   
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -22,7 +27,11 @@
         <?php include("header.php"); ?>
 
         <div class="image-bg"> 
+<<<<<<< HEAD
         <img src="images/img_skills.jpg" alt="" class="middle"/>
+=======
+        <img src="../medias/img_skills.jpg" alt=""/>
+>>>>>>> ed987920735bec136458527831502561f6e57e49
         </div>
 
     </div>
@@ -32,7 +41,11 @@
         <!--Insérer votre code juste ici pour respecter la mise en page-->
 
         <div class = "title">
+<<<<<<< HEAD
         <h3 class="titleText">Assassination's Skills</h3>
+=======
+        <h3 class="title">Assassination's Skills</h3>
+>>>>>>> ed987920735bec136458527831502561f6e57e49
     </div>
         <h4>My prices:</h4>
         <div class="prices">
