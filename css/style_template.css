@@ -15,12 +15,12 @@ body {
 }
 
 .fixe {
-    width: 48%;
+    width: 42%;
     display: flex;
     flex-direction: row;
 }
 .contenu {
-    width: 52%;
+    width: 58%;
     background-color: #1c1c1a;
     padding: 2%;
 }
