@@ -2,7 +2,7 @@
 
     <header>
         <div class="logo">
-              <img src="images/logo.png" alt="Logo officiel de John Wick"/>
+              <a href="index.php"><img src="images/logo.png" alt="Logo officiel de John Wick"/></a>
          </div>
         <nav>
 
