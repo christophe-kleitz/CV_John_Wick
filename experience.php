@@ -23,7 +23,7 @@
         <?php include("header.php"); ?>
 
         <div class="image-bg">
-            <img src="images/experience_img.jpg" alt="Me and my awesome suit" class="middle"/>
+            <img src="images/john.jpg" alt="Me and my awesome suit" class="middle"/>
         </div>
 
     </div>
