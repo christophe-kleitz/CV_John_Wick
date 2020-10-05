@@ -22,7 +22,7 @@
         <?php include("header.php"); ?>
 
         <div class="image-bg">
-            <img src="images/contact-johnwickdog.jpg" alt="Me and my dog"/>
+            <img src="images/contact-johnwickdog.jpg" alt="Me and my dog" class="middle"/>
         </div>
 
     </div>

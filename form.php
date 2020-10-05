@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8">
     <title>Template</title>
-    <link rel="stylesheet" href="../src/css/style_template.css">
-    <link rel="stylesheet" href="../src/css/style_form.css">
+    <link rel="stylesheet" href="css/style_template.css">
+    <link rel="stylesheet" href="css/style_form.css">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
           integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">

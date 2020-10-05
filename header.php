@@ -9,7 +9,7 @@
             <div class="marge-before"></div>
             <ul>
                 <li><a href=experience.php>professional experience</a></li>
-                <li><a href=training.php>training & education</a></li>
+                <li><a href=formation.php>Formation</a></li>
                 <li><a href=skills.php>skills</a></li>
                 <li><a href=hobbies.php>hobbies</a></li>
                 <li><a href=contact.php>contact</a></li>
