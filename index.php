@@ -13,6 +13,8 @@
 </head>
 <body>
 
+<?php $nav_en_cours = ''; ?>
+
 <div class="container">
 
     <div class="fixe-menu">
