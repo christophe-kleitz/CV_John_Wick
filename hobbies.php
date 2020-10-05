@@ -12,6 +12,8 @@
 </head>
 <body>
 
+<?php $nav_en_cours = 'hobbies'; ?>
+
 <div class="container">
 
     <div class="fixe">

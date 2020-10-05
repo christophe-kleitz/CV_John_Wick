@@ -14,6 +14,8 @@
 </head>
 <body>
 
+<?php $nav_en_cours = 'skills'; ?>
+
 <div class="container">
 
     <div class="fixe">

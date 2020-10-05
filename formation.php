@@ -13,6 +13,8 @@
 </head>
 <body>
 
+<?php $nav_en_cours = 'formation'; ?>
+
 <div class="container">
 
     <div class="fixe">

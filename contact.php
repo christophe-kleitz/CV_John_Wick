@@ -15,6 +15,8 @@
 </head>
 <body>
 
+<?php $nav_en_cours = 'contact'; ?>
+
 <div class="container">
 
     <div class="fixe">
