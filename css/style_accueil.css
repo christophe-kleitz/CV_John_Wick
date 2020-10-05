@@ -1,0 +1,39 @@
+.fixe-menu {
+    width: 18%;
+}
+
+.container {
+    overflow-y: hidden;
+}
+
+.menu {
+    width: 100%;
+}
+
+.image-fond {
+    width: 82%;
+    height: 100vh;
+    background-image: url("/images/accueil_johnwickandguns.jpg");
+    background-position: center;
+    left: 18%;
+    position: absolute;
+    z-index: 0;
+    opacity: 0.8;
+}
+
+.text-accueil1,
+.text-accueil2 {
+    position: relative;
+    z-index: 1;
+}
+
+.text-accueil1 {
+    left: 5%;
+    top: 60%;
+}
+
+.text-accueil2 {
+    right: 2%;
+    top: 65%;
+    font-size: 1.5em;
+}
