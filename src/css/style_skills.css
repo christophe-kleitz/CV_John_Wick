@@ -106,9 +106,21 @@ h4{
 
 #progress {
     background-color: #1c1c1a;
-    
 }
 
 .infos {
     text-align: center;
+}
+
+.container {
+    overflow-x: auto;
+}
+
+.contenu {
+    height: 100vh;
+}
+
+.image-bg {
+    min-width: 65%;
+    height: auto;
 }
