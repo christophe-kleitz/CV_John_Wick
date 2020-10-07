@@ -28,7 +28,7 @@
     <div class="image-fond">
     </div>
 
-    <div class="text-accueil1">
+    <div class="text-accueil1" style="color: white;">
         <h1>You wanted me back ...</h1>
     </div>
 
