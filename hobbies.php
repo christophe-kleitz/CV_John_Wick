@@ -12,8 +12,6 @@
 </head>
 <body>
 
-<?php $nav_en_cours = 'hobbies'; ?>
-
 <div class="container">
 
     <div class="fixe">
@@ -21,8 +19,10 @@
         <!--Intégration du menu-->        
         <?php include("header.php"); ?>
 
-        <div class="image-bg"> <!--Intégrer ici une image de bg-->
-            <img src="images/johnbg.jpg" alt="Me and my dog" class="middle"/>
+        <div class="image-bg"> 
+            
+            <!--Intégrer ici une image de bg avec <img src.... /> -->
+            <img class="imageg" src= "./images/johnbg.jpg"/>
         </div>
 
     </div>
@@ -31,28 +31,23 @@
 
         <!--Insérer votre code juste ici pour respecter la mise en page-->
         <div>    
-            <h1 class='titleText'>My Hobbies</h1>
+            <h1 class='hobbies'>My Hobbies</h1>
 
-            <div class="hobbies">
-                <img class='giffy' src="images/wickdog.gif" > 
-                <h2>My Dog</h2>
-            </div>
-            <p>My dog, my only friend almost more loyal than my caliber .45APC. I love it.</p>
-
-            <div class="hobbies">
-                <img class='giffy' src="images/johnasr.gif" >    
-                <h2>My Guns</h2>
-
-
-            </div>
-            <p>My weapons, I choose them as well as the entrée, my dishes and my dessert at the restaurant.</p>
-            <div class="hobbies">  
-                <h2>The Polo-Cross</h2>
+            <img class='giffy' src="images/wickdog.gif" >   
+            <h2>My Dog</h2>
+                <p>My dog, my only friend almost more loyal than my caliber .45APC. I love it.</p>
+  
+            <img class='giffy' src="images/johnasr.gif" >    
+            <h2>My Guns</h2>
+                <p>My weapons, I choose them as well as the entrée, my dishes and my dessert at the restaurant.</p>
+        
+            <img class='giffy' src="images/johnpolocrosse.gif" >
+            <h2>The Polo-Cross</h2>
                 <p>I know this is not common, however none of my hobbies are.</p>
-                <img class='giffy' src="images/johnpolocrosse.gif" >
-            </div>
-        </div> 
-        <!--Ne pas supprimer ce qui suit-->
+        </div>
+       
+
+        <!--Ne pas changer ce qui suit-->
 
     <div>
 
