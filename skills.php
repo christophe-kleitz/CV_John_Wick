@@ -26,7 +26,7 @@
         <?php include("header.php"); ?>
 
         <div class="image-bg"> 
-        <img src="../medias/johnwickgun.jpg" alt=""/>
+        <img src="images/johnwickgun.jpg" alt=""/>
         </div>
 
     </div>
