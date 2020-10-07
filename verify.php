@@ -42,28 +42,29 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         exit;
     }
 
-    /*handle pdo
+    //handle pdo
     require_once '.idea/connec.php';
 
-    $pdo = new \PDO(DSN, USER, PASS);
-
-    var_dump($pdo); die;
+    try { 
+        $pdo = new \PDO(DSN, USER, PASS);
+    } catch (PDOException $e) {
+        print $e->getMessage();
+        die();
+    }
     
-    $firstname = trim($_POST['first-name']);
-    $lastname = trim($_POST['last-name']);
-    $mail = trim($_POST['mail']);
-    $message = trim($_POST['message']);
+    $query = "INSERT INTO contacts (firstname, lastname, mail, user_comment) VALUES ('$firstname', '$lastname', '$mail', '$message')";
     
-    $query = "INSERT INTO contact (firstname, lastname, mail, mes) VALUES ('$firstname', '$lastname', $mail, $message)";
-    $pdo->exec($query);
-    
-    $statement = $pdo->exec($query);*/
+    $result= $pdo->exec($query);
 
+    if ($result != false) {
+        $_SESSION['firstname'] = $firstname;
+        $_SESSION['mail'] = $mail;
 
-    header('location: form.php');
-    exit;
+        header('location:success.php');
+        exit;
+    }
+} 
 
+header ("location:contact.php");
+exit;
 
-} else {
-    header("location:form.php");
-}
