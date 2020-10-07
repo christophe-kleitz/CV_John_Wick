@@ -38,15 +38,15 @@
             <h1 class='hobbies'>My Hobbies</h1>
 
             <img class='giffy' src="images/wickdog.gif" >   
-            <h2>My Dog</h2>
+            <h2>My Dog</h2> <br>
                 <p>My dog, my only friend almost more loyal than my caliber .45APC. I love it.</p>
   
             <img class='giffy' src="images/johnasr.gif" >    
-            <h2>My Guns</h2>
+            <h2>My Guns</h2> <br>
                 <p>My weapons, I choose them as well as the entrée, my dishes and my dessert at the restaurant.</p>
         
             <img class='giffy' src="images/johnpolocrosse.gif" >
-            <h2>The Polo-Cross</h2>
+            <h2>The Polo-Cross</h2> <br>
                 <p>I know this is not common, however none of my hobbies are.</p>
         </div>
        
