@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <title>Skills</title>
-  <link rel="stylesheet" href="../src/css/style_template.css">
-  <link rel="stylesheet" href="../src/css/style_skills.css">
+  <link rel="stylesheet" href="css/style_template.css">
+  <link rel="stylesheet" href="css/style_skills.css">
 
 
   
