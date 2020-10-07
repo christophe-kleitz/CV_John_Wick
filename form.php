@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Template</title>
+    <title>Thank you</title>
     <link rel="stylesheet" href="css/style_template.css">
     <link rel="stylesheet" href="css/style_form.css">
 
@@ -18,7 +18,7 @@
 <div class="thanks-message">
 
     <div class="message">
-        <h3>Thank you for sending your form <?php echo $_POST["first-name"]; ?> ! <br>
+        <h3>Thank you for sending your form <?php echo $_POST["firstname"]; ?> ! <br>
             I will get back to you very quickly on your email <?php echo $_POST["mail"]; ?> </h3>
     </div>
 
@@ -31,4 +31,3 @@
 
 </body>
 </html>
-<php?
