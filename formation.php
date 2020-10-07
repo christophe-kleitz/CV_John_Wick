@@ -26,12 +26,12 @@
         </div>
     </div>
 
-    <div class="contenu">
+        <div class="contenu">
 <h1 class="titleText">Formation</h1>
         <div class="usMarine">
             <div class="imageText">
-                <img src="images/piece.png" alt="My money" id="piece"/>
-                <h2 class="titreFormation">19XX-19XX US Marine</h2>
+                <a href="images/wickdog.gif" id="piece"><img src="images/piece.png" alt="My money" /></a>
+                <h2 class="titreFormation"><span> 19XX-19XX</span><br/>US Marine</h2>
             </div>
             <p class="textFormation">I've learned some skills with the US Marine Force but not enough for me to stay...</p>
         </div>
@@ -39,15 +39,15 @@
         <div class="usMarine">
             <div class="imageText">
                 <img src="images/piece.png" alt="My money" id="piece"/>
-                <h2 class="titreFormation">19XX-19XX Ruska Roma</h2>
+                <h2 class="titreFormation"><span> 19XX-19XX</span><br/>Ruska Roma</h2>
             </div>
-            <p class="textFormation">Under the supervision of the Director, I've trained as an assassin. 
+            <p class="textFormation">Under the supervision of the Director, I've been trained as an assassin. 
             I acquired many skills, including martial arts, firearms, knives, tactical driving, infiltration, escape, where I was recognized as a formidable expert in each of the fields.</p>
         </div>
         <div class="usMarine">
             <div class="imageText">
                 <img src="images/piece.png" alt="My money" id="piece"/>
-                <h2 class="titreFormation">19XX-19XX Tarasov Mob</h2>
+                <h2 class="titreFormation"><span> 19XX-19XX</span><br/>Tarasov Mob</h2>
             </div>
             <p class="textFormation">I became one of the main executors of the leader, Viggo Tarasov, who valued and respect my exceptional abilities, and once saw me kill three men in a bar with a single pencil.</p>
             </div>
@@ -55,7 +55,7 @@
         <div class="usMarine">
             <div class="imageText">
                 <img src="images/piece.png" alt="My money" id="piece"/>
-                <h2 class="titreFormation">19XX-19XX Dentist</h2>
+                <h2 class="titreFormation"><span> 19XX-19XX</span><br/>Dentist</h2>
             </div>
             <p class="textFormation">I learned how many teeth have human, and mostly how many they can loose with one punch.</p>
         </div>
