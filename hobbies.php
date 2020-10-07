@@ -14,7 +14,7 @@
 </head>
 <body>
 
-  <?php $nav_en_cours = 'experience'; ?>
+  <?php $nav_en_cours = 'hobbies'; ?>
   
 <div class="container">
 
