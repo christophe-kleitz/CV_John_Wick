@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="../src/css/style_template.css">
   <link rel="stylesheet" href="../src/css/style_skills.css">
 
+
   
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
@@ -14,6 +15,8 @@
 </head>
 <body onload="move1()";>
     
+
+<?php $nav_en_cours = 'skills'; ?>
 
 <div class="container">
 
@@ -33,7 +36,7 @@
         <!--Insérer votre code juste ici pour respecter la mise en page-->
 
         <div class = "title">
-        <h3 class="title">Assassination's Skills</h3>
+        <h3 class="titleText">Assassination's Skills</h3>
     </div>
         <h4>My prices:</h4>
         <div class="prices">

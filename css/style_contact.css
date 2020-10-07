@@ -1,0 +1,72 @@
+.titre-contact {
+    text-align: end;
+}
+
+.container {
+    overflow-y: hidden;
+}
+
+.picto-contact {
+    background-color: #66d1c1;
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+}
+
+.fas {
+    color: white;
+}
+
+.picto {
+    margin: auto;
+}
+
+.text-picto {
+    margin: auto;
+    margin-left: 30px;
+}
+
+.picto-contact-col1,
+.picto-contact-col2 {
+    display: flex;
+    flex-direction: row;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 50%;
+}
+
+.formulaire-contact {
+    padding: 5%;
+}
+
+input, textarea {
+    background: none;
+    color: #04afec;
+    font-family: "Poppins", Arial, sans-serif;
+    width: 100%;
+    border: none;
+    border-bottom: #6666 1px solid;
+    outline: none;
+    font-size: 1em;
+    padding: 1rem;
+}
+
+input:focus,
+textarea:focus {
+    border-bottom: #66d1c1 solid 1px;
+}
+
+.submit {
+    font-family: "Poppins", Arial, sans-serif;
+    background-color: #66d1c1;
+    color: white;
+    height: 3.5rem;
+    width: 30%;
+    font-size: .9rem;
+    padding: auto;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    border-radius: none;
+    border: none;
+    margin: 20px;
+}
