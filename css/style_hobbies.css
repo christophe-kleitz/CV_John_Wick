@@ -1,16 +1,30 @@
-.giffy{
-    width: 20%;
-    height: 20%;
+/*HOBBIES*/
+
+.giffy {
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    }
+    
+h2 {
     text-align: center;
-    align-items: center;
+    }
+
+.imageg {
+    width: 100%;
+    height: auto;
+}    
+.contenu {
+    height: 100%;
 }
-    
-h2{
-    text-align: center;
-    
- }
- .hobbies {
-    position: relative;
-    display: inline;
-    align-self: center;
- }
+
+.middle{
+    width: 38em;
+    display: block ;
+    height: auto;
+
+}
+.menu {
+    width: 40%;
+    height: 100vh;
+}
