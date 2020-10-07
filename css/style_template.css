@@ -1,14 +1,31 @@
 body {
     margin: 0;
+<<<<<<< HEAD
+<<<<<<< HEAD
+    padding: 0;
+=======
     padding:0;
+>>>>>>> 68c704f38376ed31843e4c4d23abf18655cb472e
+=======
+    padding:0;
+>>>>>>> 68c704f38376ed31843e4c4d23abf18655cb472e
     background-color: black;
     height: 100%;
 }
 
 /*Organisation de la page*/
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+.container {
+=======
 .container
 {
+>>>>>>> 68c704f38376ed31843e4c4d23abf18655cb472e
+=======
+.container
+{
+>>>>>>> 68c704f38376ed31843e4c4d23abf18655cb472e
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -16,13 +33,29 @@ body {
 }
 
 .fixe {
+<<<<<<< HEAD
+<<<<<<< HEAD
+    width: 50%;
+=======
     width:50%;
+>>>>>>> 68c704f38376ed31843e4c4d23abf18655cb472e
+=======
+    width:50%;
+>>>>>>> 68c704f38376ed31843e4c4d23abf18655cb472e
     display: flex;
     flex-direction: row;
 }
 
 .menu {
+<<<<<<< HEAD
+<<<<<<< HEAD
+    width: 40%;
+=======
     width: 35%;
+>>>>>>> 68c704f38376ed31843e4c4d23abf18655cb472e
+=======
+    width: 35%;
+>>>>>>> 68c704f38376ed31843e4c4d23abf18655cb472e
     height: 100vh;
 }
 
@@ -31,11 +64,30 @@ body {
 }
 
 .contenu {
+<<<<<<< HEAD
+<<<<<<< HEAD
+    width: 50%;
+=======
     width:50%;
+>>>>>>> 68c704f38376ed31843e4c4d23abf18655cb472e
+=======
+    width:50%;
+>>>>>>> 68c704f38376ed31843e4c4d23abf18655cb472e
     background-color: #1c1c1a;
     padding: 2%;
 }
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+img {
+    width: auto;
+    display: block;
+    height: 100%;
+}
+
+=======
+=======
+>>>>>>> 68c704f38376ed31843e4c4d23abf18655cb472e
 img
 {
     width:auto;
@@ -44,17 +96,39 @@ img
 }
 
 
+<<<<<<< HEAD
+>>>>>>> 68c704f38376ed31843e4c4d23abf18655cb472e
+=======
+>>>>>>> 68c704f38376ed31843e4c4d23abf18655cb472e
 /*Organisation du menu*/
 
 
 .menu {
     font-family: "Poppins", Arial, sans-serif;
+<<<<<<< HEAD
+<<<<<<< HEAD
+    background-image: url("/images/background-menu.png");
+=======
     background-image: url("/medias/background-menu.png");
+>>>>>>> 68c704f38376ed31843e4c4d23abf18655cb472e
+=======
+    background-image: url("/medias/background-menu.png");
+>>>>>>> 68c704f38376ed31843e4c4d23abf18655cb472e
     background-position: 100% 0%;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+.marge-before {
+    height: 50px;
+}
+
+.logo {
+=======
+=======
+>>>>>>> 68c704f38376ed31843e4c4d23abf18655cb472e
 .marge-before
 {
     height:50px;
@@ -62,6 +136,10 @@ img
 
 .logo
 {
+<<<<<<< HEAD
+>>>>>>> 68c704f38376ed31843e4c4d23abf18655cb472e
+=======
+>>>>>>> 68c704f38376ed31843e4c4d23abf18655cb472e
     margin: 20px;
 }
 
@@ -72,6 +150,34 @@ header ul li {
 }
 
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+header ul li a {
+    text-decoration: none;
+    list-style: none;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.8);;
+    font-weight: bolder;
+}
+
+header ul li a:hover {
+    text-decoration: none;
+    list-style: none;
+    text-transform: uppercase;
+    color: #66d1c1;
+}
+
+header #en-cours a {
+    color:#66d1c1;
+}
+
+header #en-cours a {
+    color: #66d1c1;
+}
+
+=======
+=======
+>>>>>>> 68c704f38376ed31843e4c4d23abf18655cb472e
 header ul li a
 {
     text-decoration:none;
@@ -89,24 +195,109 @@ header ul li a:hover
     color:#66d1c1;
 }
 
+<<<<<<< HEAD
+>>>>>>> 68c704f38376ed31843e4c4d23abf18655cb472e
+=======
+>>>>>>> 68c704f38376ed31843e4c4d23abf18655cb472e
 
 /*Style générale*/
 
 h1 {
     font-family: 'Abril Fatface', cursive;
+<<<<<<< HEAD
+<<<<<<< HEAD
+    color: #66d1c1;
+    font-size: 3em;
+    text-transform: uppercase;
+    text-align: center;
+=======
     color:white;
     font-size: 3em;
+>>>>>>> 68c704f38376ed31843e4c4d23abf18655cb472e
+=======
+    color:white;
+    font-size: 3em;
+>>>>>>> 68c704f38376ed31843e4c4d23abf18655cb472e
 }
 
 h2 {
     font-family: 'Abril Fatface', cursive;
+<<<<<<< HEAD
+<<<<<<< HEAD
+    color: #66d1c1;
+    font-size: 2em;
+    line-height: 1.2;
+=======
     color:#66d1c1;
     font-size: 2em;
     line-height: 1.2; 
+>>>>>>> 68c704f38376ed31843e4c4d23abf18655cb472e
+=======
+    color:#66d1c1;
+    font-size: 2em;
+    line-height: 1.2; 
+>>>>>>> 68c704f38376ed31843e4c4d23abf18655cb472e
 }
 
 p {
     font-family: "Poppins", Arial, sans-serif;
-    color:#545454;
+<<<<<<< HEAD
+<<<<<<< HEAD
+    color: #545454;
     font-weight: bolder;
 }
+
+/*modification depuis le css de andrej*/
+@media screen and (max-width : 1394px) {
+    img {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width : 768px) {
+
+    img {
+        display: none;
+    }
+    .menu {
+        width: 21em;
+    }
+    div {
+        float: left !important;
+        overflow-x: hidden; //horizontal
+    }
+    p, h1, h2, h3, h4{
+        margin: 0;
+        padding: 0;
+        position: relative;
+        float: none !important;
+        text-align: left !important;
+        width: 22em;
+    }
+    .image-bg {
+        display: none;
+    }
+    br {
+        display: none;
+    }
+    hr {
+        display: block;
+    }
+    section .textual {
+        float: right !important;
+        text-align: left !important;
+    }
+    .titleText {
+        text-align: left;
+    }
+=======
+    color:#545454;
+    font-weight: bolder;
+>>>>>>> 68c704f38376ed31843e4c4d23abf18655cb472e
+=======
+    color:#545454;
+    font-weight: bolder;
+>>>>>>> 68c704f38376ed31843e4c4d23abf18655cb472e
+}
+
