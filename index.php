@@ -28,8 +28,8 @@
     <div class="image-fond">
     </div>
 
-    <div class="text-accueil1" style="color: white;">
-        <h1>You wanted me back ...</h1>
+    <div class="text-accueil1">
+        <h1 style="color: white;">You wanted me back ...</h1>
     </div>
 
     <div class="text-accueil2">
