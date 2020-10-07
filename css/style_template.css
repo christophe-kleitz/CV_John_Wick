@@ -46,7 +46,7 @@ img {
 
 .menu {
     font-family: "Poppins", Arial, sans-serif;
-    background-image: url("/medias/background-menu.png");
+    background-image: url("/images/background-menu.png");
     background-position: 100% 0%;
     background-size: contain;
     background-repeat: no-repeat;
