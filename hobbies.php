@@ -12,6 +12,8 @@
 </head>
 <body>
 
+  <?php $nav_en_cours = 'experience'; ?>
+  
 <div class="container">
 
     <div class="fixe">
