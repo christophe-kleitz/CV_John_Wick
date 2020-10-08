@@ -176,6 +176,7 @@ p {
 
     img .menu {
         display: none;
+        width: 18em;
     }
 
     .contenu {
@@ -187,7 +188,6 @@ p {
     p, h1, h2, h3, h4{
         margin: 0;
         padding: 2px;
-
     }
 
     h1 {
