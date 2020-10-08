@@ -19,9 +19,9 @@
 <div class="marge-before"></div>
 
 <footer>
-    <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
-    <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
-    <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+    <a href="https://www.instagram.com/johnwickmovie/?hl=fr"><i class="fab fa-instagram fa-2x"></i></a>
+    <a href="https://www.linkedin.com/in/john-wick-6a1544162/"><i class="fab fa-linkedin-in fa-2x"></i></a>
+    <a href="https://twitter.com/johnwickmovie?lang=fr"><i class="fab fa-twitter fa-2x"></i></a>
 </footer>
 
 </div>

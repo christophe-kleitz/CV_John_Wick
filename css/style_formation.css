@@ -44,11 +44,3 @@ h2 {
     padding-top: 1%;
 }
 
-#piece:hover{
-    animation-play-state: paused;
-    }
-
-@keyframes example {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
-    }

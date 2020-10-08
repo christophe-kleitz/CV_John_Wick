@@ -154,19 +154,22 @@ hr {
         display: none;
     }
     .menu {
-        width: 21em;
+        width: 18em;
     }
     div {
         float: left !important;
         overflow-x: hidden; //horizontal
     }
-    p, h1, h2, h3, h4{
+    p, h1, h2, h3, h4 {
         margin: 0;
         padding: 0;
         position: relative;
         float: none !important;
         text-align: left !important;
         width: 22em;
+    }
+    .fixe {
+        width:25%;
     }
     .image-bg {
         display: none;
@@ -176,6 +179,9 @@ hr {
     }
     hr {
         display: block;
+    }
+    .contenu {
+        width:65%;
     }
     section .textual {
         float: right !important;
