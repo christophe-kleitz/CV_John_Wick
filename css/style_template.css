@@ -27,7 +27,7 @@ body {
 }
 
 .image-bg {
-    width: 65%;
+    width: 60%;
 }
 
 .contenu {
@@ -54,11 +54,6 @@ img {
 
 .marge-before {
     height: 50px;
-}
-
-.marge-before
-{
-    height:50px;
 }
 
 .logo
@@ -89,6 +84,25 @@ header ul li a:hover {
 }
 
 header #en-cours a {
+    color:#66d1c1;
+}
+
+footer {
+    margin-top: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.fab
+{
+    color:white;
+    margin-top:40%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.fab:hover
+{
     color:#66d1c1;
 }
 
