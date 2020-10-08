@@ -25,15 +25,15 @@
 .text-accueil2 {
     position: relative;
     z-index: 1;
+    margin-top:25%;
 }
 
 .text-accueil1 {
     left: 5%;
-    top: 60%;
 }
 
 .text-accueil2 {
     right: 2%;
-    top: 65%;
+    margin-top: 30%;
     font-size: 1.5em;
 }

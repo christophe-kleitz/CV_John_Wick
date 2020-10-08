@@ -43,7 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     //handle pdo
-    require_once '.idea/connec.php';
+    require_once '.idea/connec.dist.php';
 
     try { 
         $pdo = new \PDO(DSN, USER, PASS);
