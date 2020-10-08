@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Skills</title>
   <link rel="stylesheet" href="css/style_template.css">
   <link rel="stylesheet" href="css/style_skills.css">
@@ -41,7 +41,6 @@
         <div class="prices">
             <div class="bloc1">Murder:
                 <p>10.000$</p>
-                <p></p> 
             </div>
             <div class="bloc2">Assassination:
                 <p>25.000$</p>

@@ -208,3 +208,85 @@ h4{
     min-width: 65%;
     height: auto;
 }
+
+@media screen and (max-width: 768px) {
+    .title{
+        text-align: center;
+        font-size: 1.5em;
+        margin-bottom: 3%;
+    }
+    h4{
+        text-align: center;
+        font-size: 26px;
+        margin-bottom: 5%;
+    }
+    .fixe {
+        width: 30%;
+    }
+    .contenu {
+        width: 70%;
+        text-align: center;
+    }
+    .image-bg{
+        display: none;
+    }
+    .prices {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows:  repeat(3, auto);
+    }
+    .bloc1 {
+        grid-row: 1;
+        grid-column: auto;
+        text-align: center;
+    }
+    .bloc2 {
+        grid-row: 2;
+        grid-column: auto;
+        text-align: center;
+    }
+    .bloc3 {
+        grid-row: 3;
+        grid-column: auto;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    .bloc-element1{
+        margin-bottom: 5%;
+    }
+
+    .JohnWickSkills {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, auto);
+        text-align: center;
+    }
+    .bloc4 {
+        grid-row: 1;
+        grid-column: auto;
+    }
+    .bloc5 {
+        grid-row: 2;
+        grid-column: auto;
+    }
+    .bloc6 {
+        grid-row: 3;
+        grid-column: auto;
+    }
+    .bloc7 {
+        grid-row: 4;
+        grid-column: auto;
+    }
+    .bloc8 {
+        grid-row: 5;
+        grid-column: auto;
+    }
+    .bloc9 {
+        grid-row: 6;
+        grid-column: auto; 
+        margin-bottom: 10%;
+    }
+    .skills {
+        animation-delay: 1.4s;
+    }
+}

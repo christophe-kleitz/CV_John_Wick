@@ -143,11 +143,11 @@ p {
     .menu {
         width: 21em;
     }
-    div {
+    .textual div {
         float: left !important;
         overflow-x: hidden;
     }
-    p, h1, h2, h3, h4{
+    .textual p,.textual h1,.textual h2,.textual h3,.textual h4{
         margin: 0;
         padding: 0;
         position: relative;
