@@ -12,7 +12,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@200&display=swap" rel="stylesheet">
 
 </head>
-<body onload="move1()";>
+<body>
     
 
 <?php $nav_en_cours = 'skills'; ?>
@@ -35,7 +35,7 @@
         <!--Insérer votre code juste ici pour respecter la mise en page-->
 
         <div class = "title">
-        <h3 class="titleText">Assassination's Skills</h3>
+        <h1 class="title">Assassination's Skills</h1>
     </div>
         <h4>My prices:</h4>
         <div class="prices">
@@ -57,34 +57,34 @@
         </div>
             
         <div class="JohnWickSkills">
-              <div class="bloc4" id="progress">
+              <div class="bloc4">
               <p>Martial Arts</p>
-              <div class="skills martialArts" id="bar1">95%</div>
+              <div class="skills martialArts">95%</div>
               </div>
                 
-              <div class="bloc5" id="progress">
+              <div class="bloc5">
               <p>Weapons</p>
-              <div class="skills weapons" id="bar2">97%</div>
+              <div class="skills weapons">97%</div>
               </div>
                 
-              <div class="bloc6" id="progress">
+              <div class="bloc6">
               <p>Cold Steel</p>
-              <div class="skills coldSteel" id="bar3">94%</div>
+              <div class="skills coldSteel">94%</div>
               </div>
 
-              <div class="bloc7" id="progress">
+              <div class="bloc7">
               <p>Tactical Driving</p>
-              <div class="skills tacticDriving" id="bar4">86%</div>
+              <div class="skills tacticDriving">86%</div>
               </div>
                 
-              <div class="bloc8" id="progress">
+              <div class="bloc8">
               <p>Infiltration</p>
-              <div class="skills infiltration" id="bar5">91%</div>
+              <div class="skills infiltration">91%</div>
               </div>
                 
-              <div class="bloc9" id="progress">
+              <div class="bloc9">
               <p>Evasion</p>  
-              <div class="skills evasion" id="bar6">88%</div>
+              <div class="skills evasion">88%</div>
               </div>
         </div>
         <h4> More infos:</h4>
@@ -100,5 +100,4 @@
 
 </div>
 </body>
-<script src="./script.js"></script>
 </html>

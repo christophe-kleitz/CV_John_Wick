@@ -76,33 +76,117 @@ h4{
 .martialArts {
     width: 95%; 
     background-color: #66d1c1;
-    border-radius: 7px
+    border-radius: 7px;
+    animation-name: bar1;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
 } 
+
+@keyframes bar1 {
+    from {
+        width: 1%
+    }
+    to {
+        width: 95%
+    }
+}
+
 .weapons {
     width: 97%; 
     background-color: #66d1c1;
-    border-radius: 7px
+    border-radius: 7px;
+    animation-name: bar2;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
 } 
+
+@keyframes bar2 {
+    from {
+        width: 1%
+    }
+    to {
+        width: 97%
+    }
+}
+
 .coldSteel {
     width: 94%;
     background-color: #66d1c1;
-    border-radius: 7px
+    border-radius: 7px;
+    animation-name: bar3;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
 } 
+
+@keyframes bar3 {
+    from {
+        width: 1%
+    }
+    to {
+        width: 94%
+    }
+}
+
 .tacticDriving {
     width: 86%; 
     background-color: #66d1c1;
-    border-radius: 7px
+    border-radius: 7px;
+    animation-name: bar4;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
 }
+
+@keyframes bar4 {
+    from {
+        width: 1%
+    }
+    to {
+        width: 86%
+    }
+}
+
 .infiltration {
     width: 91%; 
     background-color: #66d1c1;
-    border-radius: 7px
+    border-radius: 7px;
+    animation-name: bar5;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
 }
+
+@keyframes bar5 {
+    from {
+        width: 1%
+    }
+    to {
+        width: 91%
+    }
+}
+
 .evasion {
     width: 88%; 
     background-color: #66d1c1;
-    border-radius: 7px
+    border-radius: 7px;
+    animation-name: bar6;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
 }
+
+@keyframes bar6 {
+    from {
+        width: 1%
+    }
+    to {
+        width: 88%
+    }
+}
+
 
 #progress {
     background-color: #1c1c1a;
