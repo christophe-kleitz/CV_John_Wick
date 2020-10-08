@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/style_template.css">
     <link rel="stylesheet" href="css/style_accueil.css">
 
+    <link rel="icon" type="image/png" href="images/favicon.ico"/>
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@200&display=swap"
           rel="stylesheet">
@@ -28,7 +29,7 @@
     </div>
 
     <div class="text-accueil1">
-        <h1>You wanted me back ...</h1>
+        <h1 style="color: white;">You wanted me back ...</h1>
     </div>
 
     <div class="text-accueil2">
