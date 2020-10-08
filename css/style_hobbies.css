@@ -1,9 +1,10 @@
 /*HOBBIES*/
 
 .giffy {
-    width: 10%;
-    height: 10%;
-    position: absolute;
+    width: 25%;
+    height: 25%;
+    display: block;
+    margin: 0 auto;
     }
     
 h2 {
@@ -27,4 +28,13 @@ h2 {
 .menu {
     width: 40%;
     height: 100vh;
+}
+
+
+@media screen and (max-width : 768px) {
+    .giffy {
+        width: 45%;
+        height: 45%;
+    }
+
 }
