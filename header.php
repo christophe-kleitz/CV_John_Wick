@@ -16,6 +16,7 @@
             </ul>
         </nav>
 </header>
+<div class="marge-before"></div>
 
 <footer>
     <a href="#"><i class="fab fa-instagram fa-2x"></i></a>

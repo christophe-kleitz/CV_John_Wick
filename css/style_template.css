@@ -88,15 +88,13 @@ header #en-cours a {
 }
 
 footer {
-    margin-top: 90%;
-    margin-right: 5%;
-    margin-left: 5%;
+    margin:5%;
 }
 
 .fab
 {
     color:white;
-    margin-top:40%;
+    margin-top:10%;
     margin-left: 10%;
     margin-right: 10%;
 }
