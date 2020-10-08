@@ -127,50 +127,85 @@ p {
     font-weight: bolder;
 }
 
-/*modification depuis le css de andrej*/
+
+/*Responsive*/
 @media screen and (max-width : 1294px) {
-    img {
+
+    .menu {
+        background-image: none;
+    }
+    
+    .fixe{
+        width:35%;
+    }
+
+    .contenu {
+        width:65%;
+        min-height: auto;
+    }
+
+    .image-bg {
         display: none;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .fab {
+        margin-left :40%;
     }
 }
 
 
 @media screen and (max-width : 768px) {
 
-    img {
+    .logo {
         display: none;
-    }
-    .menu {
-        width: 21em;
-    }
-    div {
-        float: left !important;
-        overflow-x: hidden;
-    }
-    p, h1, h2, h3, h4{
-        margin: 0;
-        padding: 0;
-        position: relative;
-        float: none !important;
-        text-align: left !important;
-        width: 22em;
-    }
-    .image-bg {
-        display: none;
-    }
-    br {
-        display: none;
-    }
-    hr {
-        display: block;
-    }
-    section .textual {
-        float: right !important;
-        text-align: left !important;
-    }
-    .titleText {
-        text-align: left;
     }
 
+    .fixe {
+        width: 20%;
+    }
+
+    .menu {
+        width: 100%;
+    }
+
+    img .menu {
+        display: none;
+    }
+
+    .contenu {
+        width:80%;
+        min-height:auto;
+        padding: 2%;
+    }
+    
+    p, h1, h2, h3, h4{
+        margin: 0;
+        padding: 2px;
+
+    }
+
+    h1 {
+        font-size:1.5em;
+    }
+
+    h2 {
+        font-size:1.5em;
+    }
+
+    p{
+        font-size: smaller;
+    }
+
+    header ul li a {
+        font-size: smaller;
+    }   
+
+    
 }
 
