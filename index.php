@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/style_template.css">
     <link rel="stylesheet" href="css/style_accueil.css">
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="images/favicon.ico"/>
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@200&display=swap"

@@ -21,8 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="42a5bbe6-f9c7-42eb-ba49-49c1d37047e5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style_experience.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_experience.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style_template.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_template.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style_hobbies.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_hobbies.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/formation.php" beforeDir="false" afterPath="$PROJECT_DIR$/formation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hobbies.php" beforeDir="false" afterPath="$PROJECT_DIR$/hobbies.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +50,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -60,6 +63,7 @@
       <updated>1601454836167</updated>
       <workItem from="1601454837709" duration="7754000" />
       <workItem from="1602152023796" duration="1075000" />
+      <workItem from="1602158037869" duration="1078000" />
     </task>
     <servers />
   </component>
