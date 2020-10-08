@@ -1,3 +1,5 @@
+<?php session_start();?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,7 +18,15 @@
 </head>
 <body>
 
-<?php $nav_en_cours = 'contact'; ?>
+<?php $nav_en_cours = 'contact';?>
+<?php 
+
+$errors = [];
+if (isset($_SESSION['errors'])) {
+    $errors = $_SESSION['errors']; 
+    unset($_SESSION['errors']);
+}
+?>
 
 <div class="container">
 
@@ -60,19 +70,24 @@
 
         </div>
 
-        <div class="formulaire-contact">
+        <?php $firstnameErr = $lastnameErr = $emailErr = $messageErr =""; ?>
 
+        <div class="formulaire-contact">
             <h2> Send me a message </h2>
 
-            <form name="form" action="form.php" method="post">
+            <form name="form" action="verify.php" method="post">
 
-                <input type="text" name="first-name" id="first-name" placeholder="Your first name"/>
+                <input type="text" name="firstname" id="firstname" placeholder="Your first name"/>
+                <span class="error"> <?php if (isset($errors['firstname'])) { echo $errors['firstname']; }; ?></span>
 
-                <input type="text" name="last-name" id="last-name" placeholder="Your last name"/>
+                <input type="text" name="lastname" id="lastname" placeholder="Your last name"/>
+                <span class="error"> <?php if (isset($errors['lastname'])) { echo $errors['lastname']; }; ?></span>
 
                 <input type="email" name="mail" id="mail" placeholder="Your email"/>
+                <span class="error"> <?php if (isset($errors['mail'])) { echo $errors['mail']; }; ?></span>
 
                 <textarea name="message" id="message" rows="8" cols="20" placeholder="Message"></textarea>
+                <span class="error"> <?php if (isset($errors['message'])) { echo $errors['message']; }; ?></span>
 
                 <button type="submit" id="submit" class="submit">Send message</button>
             </form>
