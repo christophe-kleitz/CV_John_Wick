@@ -35,7 +35,7 @@
         <!--Insérer votre code juste ici pour respecter la mise en page-->
 
         <div class = "title">
-        <h1 class="title">Assassination's Skills</h1>
+        <h1 class="title">Skills</h1>
     </div>
         <h4>My prices:</h4>
         <div class="prices">
