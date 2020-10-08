@@ -173,19 +173,11 @@ p {
     .menu {
         width: 100%;
     }
-
-    img .menu {
-        display: none;
-        width: 18em;
+    .textual div {
+        float: left !important;
+        overflow-x: hidden;
     }
-
-    .contenu {
-        width:80%;
-        min-height:auto;
-        padding: 2%;
-    }
-    
-    p, h1, h2, h3, h4{
+    .textual p,.textual h1,.textual h2,.textual h3,.textual h4{
         margin: 0;
         padding: 2px;
     }
