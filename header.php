@@ -15,7 +15,13 @@
                 <li <?php if ($nav_en_cours == 'contact') {echo ' id="en-cours"';} ?>><a href=contact.php>Contact</a></li>
             </ul>
         </nav>
-    </header>
+</header>
+
+<footer>
+    <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+    <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+    <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+</footer>
 
 </div>
 
