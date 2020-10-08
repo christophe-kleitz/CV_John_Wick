@@ -2,10 +2,6 @@
     text-align: end;
 }
 
-.container {
-    overflow-y: hidden;
-}
-
 .picto-contact {
     background-color: #66d1c1;
     padding: 2%;
@@ -69,4 +65,12 @@ textarea:focus {
     border-radius: none;
     border: none;
     margin: 20px;
+}
+
+.error
+{
+    color:white;
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 0.8rem;
+    font-weight: bolder;
 }
