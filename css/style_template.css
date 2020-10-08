@@ -141,7 +141,7 @@ p {
         display: none;
     }
     .menu {
-        width: 21em;
+        width: 18em;
     }
     div {
         float: left !important;
@@ -157,6 +157,9 @@ p {
     }
     .image-bg {
         display: none;
+    }
+    .fixe {
+        width:25%;
     }
     br {
         display: none;
