@@ -31,7 +31,7 @@
 <h1 class="titleText">Formation</h1>
         <div class="usMarine">
             <div class="imageText">
-                <a href="images/wickdog.gif" id="piece"><img src="images/piece.png" alt="My money" /></a>
+                <a href="images/john-wick-tattoo.jpeg" id="piece"><img src="images/piece.png" alt="My money" /></a>
                 <h2 class="titreFormation"><span> 19XX-19XX</span><br/>US Marine</h2>
             </div>
             <p class="textFormation">I've learned some skills with the US Marine Force but not enough for me to stay...</p>
@@ -39,15 +39,16 @@
 
         <div class="usMarine">
             <div class="imageText">
-                <img src="images/piece.png" alt="My money" id="piece"/>
+            <a href="images/ruska-roma.jpg" id="piece"><img src="images/piece.png" alt="My money" /></a>
                 <h2 class="titreFormation"><span> 19XX-19XX</span><br/>Ruska Roma</h2>
             </div>
             <p class="textFormation">Under the supervision of the Director, I've been trained as an assassin. 
             I acquired many skills, including martial arts, firearms, knives, tactical driving, infiltration, escape, where I was recognized as a formidable expert in each of the fields.</p>
         </div>
+
         <div class="usMarine">
             <div class="imageText">
-                <img src="images/piece.png" alt="My money" id="piece"/>
+                <a href="images/keanu-john-wick-2.webp" id="piece"><img src="images/piece.png" alt="My money" /></a>
                 <h2 class="titreFormation"><span> 19XX-19XX</span><br/>Tarasov Mob</h2>
             </div>
             <p class="textFormation">I became one of the main executors of the leader, Viggo Tarasov, who valued and respect my exceptional abilities, and once saw me kill three men in a bar with a single pencil.</p>
@@ -55,7 +56,7 @@
 
         <div class="usMarine">
             <div class="imageText">
-                <img src="images/piece.png" alt="My money" id="piece"/>
+            <a href="images/keanu-john-wick-2.webp" id="piece"><img src="images/piece.png" alt="My money" /></a>
                 <h2 class="titreFormation"><span> 19XX-19XX</span><br/>Dentist</h2>
             </div>
             <p class="textFormation">I learned how many teeth have human, and mostly how many they can loose with one punch.</p>
