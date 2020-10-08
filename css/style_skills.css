@@ -85,10 +85,12 @@ h4{
 
 @keyframes bar1 {
     from {
-        width: 1%
+        span: 1%;
+        width: 1%;
     }
     to {
-        width: 95%
+        span: 95%;
+        width: 95%;
     }
 }
 
