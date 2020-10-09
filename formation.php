@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Formation</title>
+  <title>Training</title>
   <link rel="stylesheet" href="css/style_template.css">
   <link rel="stylesheet" href="css/style_formation.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,7 +28,7 @@
     </div>
 
         <div class="contenu">
-<h1 class="titleText">Formation</h1>
+<h1 class="titleText">Training</h1>
         <div class="usMarine">
             <div class="imageText">
                 <a href="images/john-wick-tattoo.jpeg" id="piece"><img src="images/piece.png" alt="My money" /></a>
