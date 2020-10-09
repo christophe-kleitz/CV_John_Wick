@@ -56,7 +56,7 @@
 
         <div class="usMarine">
             <div class="imageText">
-            <a href="images/keanu-john-wick-2.webp" id="piece"><img src="images/piece.png" alt="My money" /></a>
+            <a href="images/broken_teeth.jpg" id="piece"><img src="images/piece.png" alt="My money" /></a>
                 <h2 class="titreFormation"><span> 19XX-19XX</span><br/>Dentist</h2>
             </div>
             <p class="textFormation">I learned how many teeth have human, and mostly how many they can loose with one punch.</p>
