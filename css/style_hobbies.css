@@ -1,5 +1,10 @@
 /*HOBBIES*/
 
+.contenu {
+    width:46%;
+    left: 50%;
+}
+
 .giffy {
     width: 25%;
     height: 25%;
@@ -37,5 +42,88 @@ h2 {
 
 }
 h1 {
+
     margin-bottom: 4%;
  }
+ 
+/*Responsive*/
+@media screen and (max-width : 1294px) {
+
+    .menu {
+        background-image: none;
+    }
+    
+    .fixe{
+        width:35%;
+        position: relative;
+    }
+
+    .contenu {
+        width:65%;
+        min-height: auto;
+        padding: 2%;
+        position: relative;
+        left: auto;
+    }
+
+    .image-bg {
+        display: none;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .fab {
+        margin-left :40%;
+    }
+}
+
+ @media screen and (max-width : 768px) {
+
+    .logo {
+        display: none;
+    }
+
+    .fixe {
+        width: 35%;
+        position: relative;
+    }
+
+    img .menu {
+        display: none;
+    }
+
+    .contenu {
+        width:70%;
+        min-height:auto;
+        padding: 2%;
+        left: auto;
+    }
+    
+    p, h1, h2, h3, h4{
+        margin: 0;
+        padding: 2px;
+
+    }
+
+    h1 {
+        font-size:1.5em;
+    }
+
+    h2 {
+        font-size:1.5em;
+    }
+
+    p{
+        font-size: smaller;
+    }
+
+    header ul li a {
+        font-size: smaller;
+    }   
+
+    
+}

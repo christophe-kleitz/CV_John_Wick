@@ -31,16 +31,14 @@ body {
 
 .image-bg {
     width: 60%;
-    overflow: hidden;
-    position: relative;
 }
 
 .contenu {
-    width:50%;
+    width:49%;
     background-color: #1c1c1a;
     padding: 2%;
     position: absolute;
-    left: 46%;
+    left: 47%;
     min-height: 100vh;
 }
 
@@ -147,11 +145,15 @@ p {
     
     .fixe{
         width:35%;
+        position: relative;
     }
 
     .contenu {
         width:65%;
         min-height: auto;
+        padding: 2%;
+        position: relative;
+        left: auto;
     }
 
     .image-bg {
@@ -177,7 +179,8 @@ p {
     }
 
     .fixe {
-        width: 30%;
+        width: 35%;
+        position: relative;
     }
 
     img .menu {
@@ -188,6 +191,7 @@ p {
         width:70%;
         min-height:auto;
         padding: 2%;
+        left: auto;
     }
     
     p, h1, h2, h3, h4{

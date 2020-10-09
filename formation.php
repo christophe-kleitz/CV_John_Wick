@@ -28,7 +28,7 @@
     </div>
 
         <div class="contenu">
-<h1 class="titleText">Formation</h1>
+<h1 class="titleText">Training</h1>
         <div class="usMarine">
             <div class="imageText">
                 <a href="images/john-wick-tattoo.jpeg" id="piece"><img src="images/piece.png" alt="My money" /></a>
