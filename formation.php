@@ -34,7 +34,7 @@
                 <a href="images/john-wick-tattoo.jpeg" id="piece"><img src="images/piece.png" alt="My money" /></a>
                 <h2 class="titreFormation"><span> 19XX-19XX</span><br/>US Marine</h2>
             </div>
-            <p class="textFormation">I've learned some skills with the US Marine Force but not enough for me to stay...</p>
+            <p class="textFormation">I've learnedne Force but not enough for me to stay...</p>
         </div>
 
         <div class="usMarine">
