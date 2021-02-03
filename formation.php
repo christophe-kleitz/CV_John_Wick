@@ -34,7 +34,7 @@
                 <a href="images/john-wick-tattoo.jpeg" id="piece"><img src="images/piece.png" alt="My money" /></a>
                 <h2 class="titreFormation"><span> 19XX-19XX</span><br/>US Marine</h2>
             </div>
-            <p class="textFormation">I've learned some skills with the US Marine Force but not enough for me to stay...</p>
+            <p class="textFormation">I've learnedne Force but not enough for me to stay...</p>
         </div>
 
         <div class="usMarine">
@@ -56,7 +56,7 @@
 
         <div class="usMarine">
             <div class="imageText">
-            <a href="images/keanu-john-wick-2.webp" id="piece"><img src="images/piece.png" alt="My money" /></a>
+            <a href="images/broken_teeth.jpg" id="piece"><img src="images/piece.png" alt="My money" /></a>
                 <h2 class="titreFormation"><span> 19XX-19XX</span><br/>Dentist</h2>
             </div>
             <p class="textFormation">I learned how many teeth have human, and mostly how many they can loose with one punch.</p>
