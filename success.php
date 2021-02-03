@@ -25,7 +25,6 @@
     </div>
 
     <div class="redirection">
-        <h4>To go to back to my CV, click on my face</h4>
         <a href="index.php"> <img src=images/redirection-jw.jpg alt="My most beautiful smile"/></a>
         <h4>To go to back to my CV, click on my face</h4>
     </div>

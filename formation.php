@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Formation</title>
+  <title>Training</title>
   <link rel="stylesheet" href="css/style_template.css">
   <link rel="stylesheet" href="css/style_formation.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
